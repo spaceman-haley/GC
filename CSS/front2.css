@@ -6,8 +6,13 @@ margin: 0px;
 padding: 0px;
 overflow-x: hidden; }
 
-
-
+h2 {	
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+}
+	
+	
 /*Nav Bar Styling */
 
 .header {
@@ -119,7 +124,7 @@ text-decoration: none;
 }
 
 .container {
-        font:  25px/28px 'Oxygen', Tahoma, Verdana, sans-serif;
+        font:  25px/28px 'Raleway', Tahoma, Verdana, sans-serif;
 		text-align: center;
         background-color: #FFFFFF;
         min-height: 100%;
@@ -128,7 +133,7 @@ text-decoration: none;
 }	
 
 .innercontainer {
-	font:  25px/28px 'Oxygen', Tahoma, Verdana, sans-serif;
+	font:  25px/28px 'Raleway', Tahoma, Verdana, sans-serif;
 	text-align: center;
 	margin: 0 auto;
 	padding-top: 15px;
@@ -138,7 +143,16 @@ text-decoration: none;
 	position: relative;
 }
 
+.socialpages {
+	padding: 2px;
+	color: black;
+	margin: 20px;
+}
 
+.socialpages a {
+	color: black;
+	font-size: 35px;
+}
 
 #footerimg {
 	float: none;
@@ -172,5 +186,46 @@ text-decoration: none;
 	font: 25px/28px 'Raleway', Tahoma, Veranda, sans-serif;
 }
 
+/* Contact Page Styling */
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 35%; /*  width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+	display: block;
+	text-align: left;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #074E68;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a lighter blue color */
+input[type=submit]:hover {
+    background-color: #4F94CD;
+}
+
+/* Add a background color and some padding around the form */
+.contactcontainer {
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    padding: 0px;
+	font:  25px/28px 'Raleway', Tahoma, Verdana, sans-serif;
+	text-align: center;
+    min-height: 100%;
+    width:100%;
+	position: relative;
+} 
 
 
