@@ -1,0 +1,176 @@
+html, body {
+
+ width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden; }
+
+
+
+/*Nav Bar Styling */
+
+.header {
+	text-align: center;
+	background: #074E68;
+	background-size: cover;
+	position: relative;
+	overflow: visible;
+	padding-top: 2.5rem;
+	padding-bottom: 4.9rem; 
+ }
+  
+ 
+  .header .headline {
+    color: #ffe;
+	font-family: 'Dancing Script', cursive;
+	font-size: 85px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+
+.header-subnav {
+	float: none;
+	position: absolute;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	bottom: 0;
+	width: 100%; }
+
+.header-subnav li {
+    float: none;
+    display: inline-block; }
+	
+.header-subnav li a {
+	padding: 0.9rem 1rem;
+	font-size: 15px;
+	color: #ffe;
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: all 0.35s ease-in-out; }
+	  
+.header-subnav li a.is-active {
+	background: rgba(250, 250, 250, 0.15); }
+		
+.header-subnav li a:hover {
+	background: rgba(250, 250, 250, 0.15);
+	transition: all 0.35s ease-in-out; }
+		
+p.bottomaddress {
+  font:  17px/20px, 'Raleway', sans-serif;
+  color: #b3b3b3;
+  font-size: 12px;
+  text-align: center;
+}
+
+a:link {
+text-decoration: none;
+}
+
+/*Social media icon styling */
+.social {
+  float: right;
+  position: absolute;
+  vertical-align: length 20;
+  padding: 0px;
+  margin: 0 auto;
+  bottom: 0;
+ }
+
+.social li {
+	float: none;
+	display: block;
+     }
+		
+.social li a {
+      padding: 0.9rem 1rem;
+      font-size: 20px;
+      color: #ffe;
+	  text-decoration: none;
+      display: block;
+      ;
+ }
+
+.image-left {	
+	float: top;
+	position: absolute;
+	text-align: left;
+	margin: 0 auto;
+	bottom: 0;
+	 }	  
+
+.footer {
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	bottom: 0;
+	float: bottom;
+	background: #074E68;
+	background-size: cover;
+	padding: 5px;
+}		
+
+.footer a {
+	color: #ffe;
+}
+
+.container {
+        font:  25px/28px 'Oxygen', Tahoma, Verdana, sans-serif;
+		text-align: center;
+        background-color: #FFFFFF;
+        min-height: 100%;
+        width:100%;
+		position: relative;
+}	
+
+.innercontainer {
+	font:  25px/28px 'Oxygen', Tahoma, Verdana, sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 15px;
+    background-color: #FFFFFF;
+    min-height: 100%;
+    width:75%;
+	position: relative;
+}
+
+
+
+#footerimg {
+	float: none;
+	position: absolute;
+	text-align: right;
+	margin: 0 auto;
+	bottom: 0;
+	width: 100%; }
+}
+
+#img {
+	float: left;
+    margin: 0 0 10px 10px;
+	padding: 10px;
+	position: relative;
+	display: inline;
+}
+
+#text {
+	font:  25px/28px 'Raleway', Tahoma, Verdana, sans-serif;
+	position: relative;
+	display: inline;
+}
+
+#tweets {
+	float: right;
+}
+
+#news {
+	float: center;
+	font: 25px/28px 'Raleway', Tahoma, Veranda, sans-serif;
+}
+
+
+
