@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Testing') {
       steps {
-        sh 'Test'
+        echo "Testing"
       }
     }
 
